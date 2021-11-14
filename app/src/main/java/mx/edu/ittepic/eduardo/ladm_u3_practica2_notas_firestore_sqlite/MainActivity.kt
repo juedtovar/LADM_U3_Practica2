@@ -136,32 +136,4 @@ class MainActivity : AppCompatActivity() {
         txtContenido.setText(nota.Contenido)
     }//Editar
 
-    /*
-    private fun insertar() {
-        //para INSERTAR el maetodo a usar es ADD
-        //ADD espera TODOS los campos del documento
-        //con formato CLAVE VALOR
-
-        val d = Date()
-        val fecha = SimpleDateFormat("yyyy-MM-dd")
-        val hora = SimpleDateFormat("HH:mm:ss")
-
-
-        var datosInsertar = hashMapOf(
-            "TITULO" to txtTitulo.text.toString(),
-            "CONTENIDO" to txtContenido.text.toString(),
-            "FECHA" to fecha.format(d),
-            "HORA" to hora.format(d)
-        )
-
-        baseRemota.collection("NOTAS")
-            .add(datosInsertar) //si marca error poner datosInsertar as Any
-            .addOnSuccessListener {
-                Toast.makeText(this,"SE INSERTO CORRECTAMENTE EN LA NUBE",Toast.LENGTH_LONG).show()
-            }
-            .addOnFailureListener {
-                Toast.makeText(this,"ERROR",Toast.LENGTH_LONG).show()
-            }
-    }*/
-
 }
