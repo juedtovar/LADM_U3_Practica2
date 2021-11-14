@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151227803702",
+    "project_id": "unidad3-notas",
+    "storage_bucket": "unidad3-notas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151227803702:android:5fed45e0d26a2a3585d097",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.eduardo.ladm_u3_practica2_notas_firestore_sqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151227803702-fg9th7p6n9bgohmu9isjcgrmuugdq08b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqdYY8_yh81CjTS-WF7BvtGia0PAhQ1_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151227803702-fg9th7p6n9bgohmu9isjcgrmuugdq08b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
